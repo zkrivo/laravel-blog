@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Merienda", cursive;
+}
+
+.register-bar {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  padding: 20px 20px 0 0;
+}
+
+.register-bar :first-child {
+  padding-right: 10px;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
+h1 {
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-size: 2.6rem;
+  color: rgba(64, 27, 107, 0.8);
+}
+
+.title {
+  margin-left: 35%;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  display: block;
+}
+
+.fas {
+  font-size: 1.8rem;
+  color: rgba(64, 27, 107, 0.8);
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  padding: 20px;
+  height: 60px;
+  width: 100%;
+}
+
+.header-box {
+  width: 70%;
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  text-align: center;
+  padding: 50px;
+  background-color: #bfeff1;
+}
+
+.header-box .links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.msg {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.blog-post {
+  background-color: #bfeff1;
+  width: 70%;
+  margin: 0 auto;
+  padding: 40px;
+  margin-bottom: 25px;
+}
+
+.shadow-blue {
+  box-shadow: 10px 10px 5px 0px #cbe5e6;
+}
+
+.blog-details {
+  width: 70%;
+  margin: 0 auto;
+  border: 3px solid #bfeff1;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+ul li {
+  margin: 5px 5px 5px 0px;
+  color: #1876f2;
+}
+
+h2 {
+  margin: 30px 0px 15px 20px;
+}
+
+.blog-text {
+  width: 100%;
+}
+
+.back {
+  padding-left: 30px;
+}
+
+.create {
+  margin-left: 28%;
+}
+
+.create-post {
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px;
+  border-top: 1.5px solid #bfeff1;
+  border-left: 1.5px solid #bfeff1;
+}
+
+.general-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.general-info .input,
+.general-info select {
+  margin-bottom: 15px;
+}
+
+.input,
+select {
+  width: 20%;
+}
+
+fieldset {
+  padding: 10px;
+  border: none;
+}
+
+.button {
+  margin: 40px 0 20px 0;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+

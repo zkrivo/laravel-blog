@@ -1,0 +1,12 @@
+.header-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.blog-post {
+    background-color: $background-color;
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px;
+    margin-bottom: 25px;
+}

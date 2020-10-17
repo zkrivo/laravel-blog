@@ -1,0 +1,25 @@
+.header-box {
+    width: 70%;
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    text-align: center;
+    padding: 50px;
+    background-color: $background-color;
+
+    .links {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }    
+}
+
+.msg {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}

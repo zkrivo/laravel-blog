@@ -1,0 +1,30 @@
+.create {
+    margin-left: 28%;
+}
+
+.create-post {
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+    border-top: 1.5px solid $background-color;
+    border-left: 1.5px solid $background-color;
+}
+
+.general-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    .input, select {
+        margin-bottom: 15px;
+    }
+}
+
+.input, select {
+    width: 20%;
+}
+
+fieldset {
+    padding: 10px;
+    border: none;
+}
